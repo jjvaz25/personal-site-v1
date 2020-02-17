@@ -199,6 +199,13 @@ p a {
   color: #a9b2b9;
 }
 
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
 /* PRIMARY HEADER */
 
 .logo {
@@ -275,6 +282,14 @@ p a {
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
-  padding: 22px 0;
+  padding-bottom: 22px;
   text-align: center;
+}
+
+.project-info img {
+  border-radius: 5px;
+  width: 80%;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+
 }
