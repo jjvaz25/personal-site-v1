@@ -67,11 +67,24 @@ body {
 
 /* ROWS */
 
+.row-alt,
+.row {
+  width: 100%;
+}
+
 .row {
   background: #fff;
-  width: 100%;
   padding: 66px 0 44px 0;
 }
+
+.row-alt {
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -229,4 +242,15 @@ p a {
 
 .nav {
   text-align: right;
+}
+
+/* LEADS */
+
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
 }
