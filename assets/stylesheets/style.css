@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #293f50;
   color: #888;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -62,6 +63,14 @@ body {
 .group {
   clear: both;
   *zoom: 1;
+}
+
+/* ROWS */
+
+.row {
+  background: #fff;
+  width: 100%;
+  padding: 66px 0 44px 0;
 }
 
 /* TYPOGRAPHY */
@@ -122,22 +131,43 @@ p a {
   border-bottom: 1px solid #dfe2e5
 }
 
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880
+}
+
 /* BUTTONS */
 
 .btn {
   border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
   display: inline-block;
   margin: 0;
 }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
+  border: 1px solid #fff;
   padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
 }
 
 /* HOME PAGE */
 
 .hero {
+  color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
