@@ -278,7 +278,7 @@ p a {
   margin-bottom: 44px;
 }
 
-.project-info {
+.item-info {
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
@@ -286,7 +286,8 @@ p a {
   text-align: center;
 }
 
-.project-info img {
+
+.item-info img {
   border-radius: 5px;
   width: 80%;
   margin: -66px 0 22px 0;
@@ -303,19 +304,4 @@ p a {
   grid-auto-flow: row;
   justify-content: center;
   grid-gap: 20px;
-}
-
-.skills-info {
-  border: 1px solid #dfe2e5;
-  border-radius: 5px;
-  margin-top: 88px;
-  padding-bottom: 22px;
-  text-align: center;
-}
-
-.skills-info img {
-  border-radius: 5px;
-  width: 80%;
-  margin: -66px 0 22px 0;
-  vertical-align: top;
 }
