@@ -285,6 +285,16 @@ p a {
   padding-right: 15px;
 }
 
+.project-info {
+  min-width: 333px;
+  max-width: 640px;
+}
+
+.project-image {
+ min-width: 166px;
+ max-width: 320px;
+}
+
 .projects-grid h2 {
   margin-bottom: 5px;
 }
@@ -296,8 +306,6 @@ p a {
 .github-links h5:last-child {
   margin-bottom: 44px;
 }
-
-
 
 .project {
   margin-bottom: 44px;
@@ -317,6 +325,19 @@ p a {
   width: 80%;
   margin: -66px 0 22px 0;
   vertical-align: top;
+}
+
+@media only screen and (max-width: 550px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;  
+  }
+
+  .github-links h5:last-child {
+    margin-bottom: 22px;
+  }
+
 }
 
 /* SKILLS PAGE */
