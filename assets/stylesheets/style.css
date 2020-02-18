@@ -179,6 +179,11 @@ p a {
 
 /* HOME PAGE */
 
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .hero {
   color: #fff;
   line-height: 44px;
@@ -245,6 +250,13 @@ p a {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+
+.primary-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 
 /* PRIMARY FOOTER */
 
@@ -416,6 +428,22 @@ p a {
 /* MOBILE */
 
 @media only screen and (max-width: 550px) {
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .tagline {
+    margin: 22px 0 22px 0;
+    text-align: center;
+  }
+
+  .primary-nav ul {
+    justify-content: center;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
     justify-items: center;
