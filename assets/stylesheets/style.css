@@ -342,18 +342,6 @@ p a {
   vertical-align: top;
 }
 
-@media only screen and (max-width: 550px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: center;  
-  }
-
-  .github-links h5:last-child {
-    margin-bottom: 22px;
-  }
-
-}
 
 /* SKILLS PAGE */
 
@@ -367,4 +355,57 @@ p a {
   grid-gap: 20px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+
+/* ABOUT PAGE */
+
+.about-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 40px;
+  max-width: 960px;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  /* justify-items: center; */
+}
+
+.about-grid img {
+  max-width: 80%;
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.about-grid ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 550px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;  
+  }
+
+  .github-links h5:last-child {
+    margin-bottom: 22px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center; 
+  }
+
+  .about-grid ul {
+    list-style-type: none;
+  }
+
+  .about-grid img {
+    width: 200px;
+  }
+
 }
