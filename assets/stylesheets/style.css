@@ -381,6 +381,12 @@ p a {
   list-style-position: inside;
 }
 
+#disclaimer {
+  list-style-type: none;
+  font-size: 12px;
+  margin-left: 40px;
+}
+
 /* MOBILE */
 
 @media only screen and (max-width: 550px) {
@@ -406,6 +412,10 @@ p a {
 
   .about-grid img {
     width: 200px;
+  }
+
+  #disclaimer {
+    margin-left: 0;
   }
 
 }
