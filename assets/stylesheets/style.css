@@ -291,5 +291,31 @@ p a {
   width: 80%;
   margin: -66px 0 22px 0;
   vertical-align: top;
+}
 
+/* SKILLS PAGE */
+
+.skills-grid {
+  margin: 0 auto;
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-flow: row;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.skills-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+.skills-info img {
+  border-radius: 5px;
+  width: 80%;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
 }
