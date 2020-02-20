@@ -313,7 +313,7 @@ p a {
 }
 
 .project-info {
-  min-width: 333px;
+  /* min-width: 333px; */
   max-width: 640px;
 }
 
